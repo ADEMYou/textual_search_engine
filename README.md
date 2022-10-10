@@ -3,7 +3,7 @@
 
 A text search engine that allows a user to retrieve text documents within a collection by submitting a natural language query (phrase or keyword). The search engine then crawls all or part of the indexed document collection to return to the user those documents that are most similar to the query.
 
-To do this, the search engine operates in two main steps: indexing and searching. The ́etape d'in- dexation is r ́ealisalis once and for all, in the following way:
+To do this, the search engine operates in two main steps: indexing and searching. The indexing step is done once and for all, in the following way:
 
 1. An indexing vocabulary, consisting of the most interesting words appearing in the documents (called indexing terms) is built up.
 2. The documents are represented in the form of a descriptor, a bag of words, which can be interpreted, depending on the model chosen, as a set of indexing terms (set and boolean models), a vector of weights or probabilities (vector and probabilistic models). .
